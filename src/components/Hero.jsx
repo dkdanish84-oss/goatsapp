@@ -2,7 +2,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-b from-green-700 to-green-500 text-white pt-28 pb-16 px-6">
+    <section
+  className="text-white pt-28 pb-16 px-6 bg-cover bg-center"
+  style={{
+    backgroundImage:
+      "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/hero.jpg')",
+  }}
+>
       <div className="max-w-6xl mx-auto text-center">
 
         <div className="text-6xl mb-4">🐐</div>
