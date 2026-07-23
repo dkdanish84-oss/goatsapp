@@ -1,8 +1,4 @@
-<img
-  src="/logo.png"
-  alt="GoatsApp Logo"
-  className="w-12 h-12 object-contain"
-/>import React from "react";
+import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
@@ -12,16 +8,18 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="flex items-center gap-3">
-<img
-  src="/logo.png"
-  alt="GoatsApp Logo"
-  className="w-12 h-12 object-contain"
-/>>
+          <img
+            src="/logo.png"
+            alt="GoatsApp Logo"
+            className="w-12 h-12 object-contain"
+          />
 
           <div>
-            <h1 className="font-bold text-xl text-green-700">
-              GoatsApp
+            <h1 className="font-bold text-2xl">
+              <span className="text-black">Goats</span>
+              <span className="text-orange-500">App</span>
             </h1>
+
             <p className="text-xs text-gray-500">
               Learn • Raise • Grow
             </p>
@@ -37,7 +35,6 @@ const Navbar = () => {
 
         {/* Buttons */}
         <div className="flex items-center gap-3">
-
           <a
             href="/"
             className="hidden md:block bg-green-700 text-white px-5 py-2 rounded-full hover:bg-green-800 transition"
@@ -46,12 +43,11 @@ const Navbar = () => {
           </a>
 
           <a
-            href="https://wa.me/917987468974X"
-            className="bg-green-500 text-white p-3 rounded-full hover:bg-green-600 transition"
+            href="https://wa.me/917987468974"
+            className="bg-green-500 text-white p-3 rounded-full hover:bg-green-600 transition rounded-full"
           >
             <FaWhatsapp />
           </a>
-
         </div>
 
       </div>
