@@ -1,4 +1,8 @@
-import React from "react";
+<img
+  src="/logo.png"
+  alt="GoatsApp Logo"
+  className="w-12 h-12 object-contain"
+/>import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
@@ -8,9 +12,11 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-11 h-11 rounded-full bg-green-700 flex items-center justify-center text-white text-xl">
-            🐐
-          </div>
+<img
+  src="/logo.png"
+  alt="GoatsApp Logo"
+  className="w-12 h-12 object-contain"
+/>>
 
           <div>
             <h1 className="font-bold text-xl text-green-700">
